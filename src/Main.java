@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class Main
+{
     //class partyAsker
     //main()
     //		String userParty
@@ -20,30 +21,30 @@ public class Main {
     //end if
     //return
     //end class
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner in = new Scanner(System.in);
-        System.out.print("What is your party affiliation, respond with a capital first letter (I.E republican = “R”): ");
+        System.out.print("What is your party affiliation: ");
 
         String userParty = in.nextLine();
         String trash = "";
 
 
-            birthMonth = in.nextInt();
-            if (Objects.equals(userParty, "D"))
-            {
-                System.out.println("Your birth month is: " + birthMonth);
-            } else if ()
-            {
 
-            } else if ()
+            if (userParty.equalsIgnoreCase("D"))
             {
-
+                System.out.println("You get a Democratic Donkey");
+            } else if (userParty.equalsIgnoreCase("R"))
+            {
+                System.out.println("You get a Republican Elephant");
+            } else if (userParty.equalsIgnoreCase("I"))
+            {
+                System.out.println("You get an Independent Man");
             } else
             {
-                System.out.println("Error, you entered an invalid month. You entered: " + birthMonth);
-                System.out.println("Run the program again and enter a valid month!");
-            }
-        }
+                System.out.println("You chose a different affiliation than Democratic, Republican, or Independent, you chose the letter: " + userParty);
 
+            }
     }
+
 }
