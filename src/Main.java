@@ -10,15 +10,15 @@ public class Main
     //		String userParty
     //		output “What is your party affiliation, respond with a capital first letter (I.E republican = “R”)”
     //		input userParty
-    //      if userParty = “D” then
-    //		    output “You get a Democratic Donkey”
-    //      else if userParty = “R” then
-    //		    output “You get a Republican Elephant”
-    //      else if userParty = “I” then
-    //		    output “You get an Independent Man”
-    //      else
-    //		    output “Error, that isn’t one of the party affiliations”
-    //      end if
+    //   if userParty = “D” then
+    //	    output “You get a Democratic Donkey”
+    //   else if userParty = “R” then
+    //		output “You get a Republican Elephant”
+    //   else if userParty = “I” then
+    //		output “You get an Independent Man”
+    //   else
+    //		output “Error, that isn’t one of the party affiliations”
+    //   end if
     //  return
     //end class
     public static void main(String[] args)
